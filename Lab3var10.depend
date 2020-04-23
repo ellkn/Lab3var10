@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1587679712 source:c:\users\Нелли\desktop\СГТУ\2 СЕМЕСТР\Языки программирования с++\Лабораторная №3\lab3var10\image.cpp
+	<iostream>
+	"image.h"
+	"grafic.h"
+
+1587678165 c:\users\Нелли\desktop\СГТУ\2 СЕМЕСТР\Языки программирования с++\Лабораторная №3\lab3var10\image.h
+	"grafic.h"
+
+1587679712 source:c:\users\Нелли\desktop\СГТУ\2 СЕМЕСТР\Языки программирования с++\Лабораторная №3\lab3var10\input.cpp
+	<iostream>
+	"input.h"
+	"grafic.h"
+
+1587678602 c:\users\Нелли\desktop\СГТУ\2 СЕМЕСТР\Языки программирования с++\Лабораторная №3\lab3var10\input.h
+	"grafic.h"
+
+1587680359 source:c:\users\Нелли\desktop\СГТУ\2 СЕМЕСТР\Языки программирования с++\Лабораторная №3\lab3var10\button.cpp
+	<iostream>
+	"button.h"
+	"grafic.h"
+
+1587676823 c:\users\Нелли\desktop\СГТУ\2 СЕМЕСТР\Языки программирования с++\Лабораторная №3\lab3var10\button.h
+	"grafic.h"
+
+1587676881 source:c:\users\Нелли\desktop\СГТУ\2 СЕМЕСТР\Языки программирования с++\Лабораторная №3\lab3var10\window.cpp
+	<iostream>
+	"window.h"
+	"grafic.h"
+
+1587675054 c:\users\Нелли\desktop\СГТУ\2 СЕМЕСТР\Языки программирования с++\Лабораторная №3\lab3var10\window.h
+	"grafic.h"
+
+1587679449 source:c:\users\Нелли\desktop\СГТУ\2 СЕМЕСТР\Языки программирования с++\Лабораторная №3\lab3var10\main.cpp
+	<iostream>
+	<Windows.h>
+	"grafic.h"
+	"window.h"
+	"button.h"
+	"image.h"
+	"input.h"
+
+1587679822 c:\users\Нелли\desktop\СГТУ\2 СЕМЕСТР\Языки программирования с++\Лабораторная №3\lab3var10\grafic.h
+
+1587679822 source:c:\users\Нелли\desktop\СГТУ\2 СЕМЕСТР\Языки программирования с++\Лабораторная №3\lab3var10\grafic.cpp
+	<iostream>
+	"grafic.h"
+
