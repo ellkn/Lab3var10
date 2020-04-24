@@ -12,7 +12,7 @@ public:
     Window(string owner, int length, int width, string title);
     Window(const Window &obj);
     void settitle(string stitle);
-    string gettitle();
+    string gettitle() const;
     void operator= (Window &w);
     void print() const override;
 
