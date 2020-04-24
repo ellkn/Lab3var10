@@ -38,15 +38,15 @@ bool GraficObject::setwidth(int swidth)
     this->width=swidth;
     return true;
 }
-string GraficObject::getowner()
+string GraficObject::getowner() const
 {
     return owner;
 }
-int GraficObject::getlength()
+int GraficObject::getlength() const
 {
     return length;
 }
-int GraficObject::getwidth()
+int GraficObject::getwidth() const
 {
     return width;
 }
