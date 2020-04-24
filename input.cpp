@@ -12,7 +12,7 @@ void Input::settext(string stext)
 {
     this->text=stext;
 }
-string Input::gettext()
+string Input::gettext() const
 {
     return text;
 }
@@ -23,9 +23,9 @@ void Input::operator= (Input &t)
 void Input::print() const
   {
     setlocale(LC_ALL, "Russian");
-    cout<<"Èíôîðìàöèÿ î êëàññå Input:"<<endl;
-    cout<<"Âëàäåëåö    :  "<<owner<<endl;
-    cout<<"Äëèíà îêíà  :  "<<length<<endl;
-    cout<<"Øèðèíà îêíà :  "<<width<<endl;
-    cout<<"Òåêñò       :  "<<text<<endl<<endl;
+    cout<<"ÃˆÃ­Ã´Ã®Ã°Ã¬Ã Ã¶Ã¨Ã¿ Ã® ÃªÃ«Ã Ã±Ã±Ã¥ Input:"<<endl;
+    cout<<"Ã‚Ã«Ã Ã¤Ã¥Ã«Ã¥Ã¶    :  "<<owner<<endl;
+    cout<<"Ã„Ã«Ã¨Ã­Ã  Ã®ÃªÃ­Ã   :  "<<length<<endl;
+    cout<<"Ã˜Ã¨Ã°Ã¨Ã­Ã  Ã®ÃªÃ­Ã  :  "<<width<<endl;
+    cout<<"Ã’Ã¥ÃªÃ±Ã²       :  "<<text<<endl<<endl;
   }
