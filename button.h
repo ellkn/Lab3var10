@@ -11,7 +11,7 @@ public:
     Button();
     Button(string owner, int length, int width, string but);
     void setbut(string sbut);
-    string getbut();
+    string getbut() const;
     void print() const override;
     void operator= (Button &b);
 };
