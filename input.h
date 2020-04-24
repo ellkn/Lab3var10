@@ -11,7 +11,7 @@ public:
     Input();
     Input(string owner, int length, int width, string text);
     void settext(string stext);
-    string gettext();
+    string gettext() const;
     void print() const override;
     void operator= (Input &t);
 
