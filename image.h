@@ -11,7 +11,7 @@ public:
     Image();
     Image(string owner, int length, int width, string photo);
     void setphoto(string sphoto);
-    string getphoto();
+    string getphoto() const;
     void print() const override;
     void operator= (Image &i);
 
