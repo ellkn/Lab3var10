@@ -16,7 +16,7 @@ void Window::settitle(string stitle)
 {
     this->title=stitle;
 }
-string Window::gettitle()
+string Window::gettitle() const
 {
     return title;
 }
@@ -27,9 +27,9 @@ void Window::operator=(Window &w)
 void Window::print() const
   {
     setlocale(LC_ALL, "Russian");
-    cout<<"Èíôîðìàöèÿ î êëàññå Window:"<<endl;
-    cout<<"Âëàäåëåö    :  "<<owner<<endl;
-    cout<<"Äëèíà îêíà  :  "<<length<<endl;
-    cout<<"Øèðèíà îêíà :  "<<width<<endl;
-    cout<<"Çàãîëîâîê   :  "<<title<<endl<<endl;
+    cout<<"ÃˆÃ­Ã´Ã®Ã°Ã¬Ã Ã¶Ã¨Ã¿ Ã® ÃªÃ«Ã Ã±Ã±Ã¥ Window:"<<endl;
+    cout<<"Ã‚Ã«Ã Ã¤Ã¥Ã«Ã¥Ã¶    :  "<<owner<<endl;
+    cout<<"Ã„Ã«Ã¨Ã­Ã  Ã®ÃªÃ­Ã   :  "<<length<<endl;
+    cout<<"Ã˜Ã¨Ã°Ã¨Ã­Ã  Ã®ÃªÃ­Ã  :  "<<width<<endl;
+    cout<<"Ã‡Ã Ã£Ã®Ã«Ã®Ã¢Ã®Ãª   :  "<<title<<endl<<endl;
   }
