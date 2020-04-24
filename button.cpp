@@ -13,7 +13,7 @@ void Button::setbut(string sbut)
 {
     this->but=sbut;
 }
-string Button::getbut()
+string Button::getbut() const
 {
     return but;
 }
@@ -24,9 +24,9 @@ void Button::operator= (Button &b)
 void Button::print() const
   {
     setlocale(LC_ALL, "Russian");
-    cout<<"Èíôîðìàöèÿ î êëàññå Button:"<<endl;
-    cout<<"Âëàäåëåö    :  "<<owner<<endl;
-    cout<<"Äëèíà îêíà  :  "<<length<<endl;
-    cout<<"Øèðèíà îêíà :  "<<width<<endl;
-    cout<<"Êíîïêà      :  "<<but<<endl<<endl;
+    cout<<"ÃˆÃ­Ã´Ã®Ã°Ã¬Ã Ã¶Ã¨Ã¿ Ã® ÃªÃ«Ã Ã±Ã±Ã¥ Button:"<<endl;
+    cout<<"Ã‚Ã«Ã Ã¤Ã¥Ã«Ã¥Ã¶    :  "<<owner<<endl;
+    cout<<"Ã„Ã«Ã¨Ã­Ã  Ã®ÃªÃ­Ã   :  "<<length<<endl;
+    cout<<"Ã˜Ã¨Ã°Ã¨Ã­Ã  Ã®ÃªÃ­Ã  :  "<<width<<endl;
+    cout<<"ÃŠÃ­Ã®Ã¯ÃªÃ       :  "<<but<<endl<<endl;
   }
