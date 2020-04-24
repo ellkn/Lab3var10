@@ -12,7 +12,7 @@ void Image::setphoto(string sphoto)
 {
     this->photo=sphoto;
 }
-string Image::getphoto()
+string Image::getphoto() const
 {
     return photo;
 }
@@ -23,10 +23,10 @@ void Image::operator= (Image &i)
 void Image::print() const
   {
     setlocale(LC_ALL, "Russian");
-    cout<<"Èíôîðìàöèÿ î êëàññå Image:"<<endl;
-    cout<<"Âëàäåëåö    :  "<<owner<<endl;
-    cout<<"Äëèíà îêíà  :  "<<length<<endl;
-    cout<<"Øèðèíà îêíà :  "<<width<<endl;
-    cout<<"Èçîáðàæåíèå :  "<<photo<<endl<<endl;
+    cout<<"ÃˆÃ­Ã´Ã®Ã°Ã¬Ã Ã¶Ã¨Ã¿ Ã® ÃªÃ«Ã Ã±Ã±Ã¥ Image:"<<endl;
+    cout<<"Ã‚Ã«Ã Ã¤Ã¥Ã«Ã¥Ã¶    :  "<<owner<<endl;
+    cout<<"Ã„Ã«Ã¨Ã­Ã  Ã®ÃªÃ­Ã   :  "<<length<<endl;
+    cout<<"Ã˜Ã¨Ã°Ã¨Ã­Ã  Ã®ÃªÃ­Ã  :  "<<width<<endl;
+    cout<<"ÃˆÃ§Ã®Ã¡Ã°Ã Ã¦Ã¥Ã­Ã¨Ã¥ :  "<<photo<<endl<<endl;
   }
 
