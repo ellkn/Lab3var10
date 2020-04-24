@@ -13,9 +13,9 @@ public:
     GraficObject();
     GraficObject(string owner, int length, int width);
     GraficObject(const GraficObject &obj);
-    void setowner(string sowner);
-    bool setlength(int slength);
-    bool setwidth (int swidth);
+    void setowner(string sowner) const;
+    bool setlength(int slength) const;
+    bool setwidth (int swidth) const;
     string getowner();
     int getlength();
     int getwidth();
